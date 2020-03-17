@@ -14,10 +14,11 @@ A NodeError exception implementation. Implements the NodeError interface.
 
 ### Donate
 
-Donations support continuous improvement and maintenance. The aim is a
-reliable, integrable, Node library. Make a donation at the project's
-collective page: https://opencollective.com/node. One-time and recurring 
-donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.
+Donations support continuous improvement and maintenance. The aim is a reliable,
+integrable, and endurable Node library. Make a donation at the 
+project's collective page: https://opencollective.com/node. 
+One-time and recurring donations are available at $1, $2, $4, $8, and $16. 
+Greatly appreciated.
 
 ### Report Bugs
 

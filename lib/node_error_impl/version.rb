@@ -2,10 +2,11 @@
 # under the MIT License.
 
 require 'node_error_int'
+require_relative 'node_error_helper'
 
-# NodeErrorImpl.
+# NodeError.
 # @abstract
-# $DESCRIPTION.
-class NodeErrorImpl < NodeErrorInt
-  VERSION = '0.1.0'
+# The NodeError interface's implementation. A NodeError type exception.
+class NodeError < NodeErrorInt
+  VERSION = '0.1.0'.freeze()
 end

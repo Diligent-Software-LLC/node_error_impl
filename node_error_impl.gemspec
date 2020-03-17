@@ -1,19 +1,19 @@
-require './lib/node_error_impl/version'
+require_relative 'lib/node_error_impl/version'
 
 Gem::Specification.new do |spec|
 
   spec.name                  = "node_error_impl"
-  spec.version               = NodeErrorImpl::VERSION
+  spec.version               = NodeError::VERSION
   spec.authors               = ["Bradley J. Tannor", "Diligent Software LLC"]
   spec.email                 = ["bradleytannor@gmail.com"]
-  spec.summary               = %q{A NodeError implementation. Implements the NodeError
-interface.}
-  spec.description           = %q{A NodeError implementation. Implements the NodeError
-interface. Donations support continuous improvement and maintenance. The aim is
-a reliable, integrable, and endurable Node library. Make a donation at the
-project's collective page: https://opencollective.com/node.
-One-time and recurring donations are available at $1, $2, $4, $8, and $16. 
-Greatly appreciated.}
+  spec.summary               = %q{A NodeError implementation. Implements the
+NodeError interface.}
+  spec.description           = %q{A NodeError implementation. Implements the
+NodeError interface. Donations support continuous improvement and maintenance.
+The aim is a reliable, integrable, and endurable Node library. Make a donation
+at the project's collective page: https://opencollective.com/node. One-time
+and recurring donations are available at $1, $2, $4, $8, and $16. Greatly
+appreciated.}
   spec.homepage              =
       "https://docs.diligentsoftware.org/node/nodeerror/implementation"
   spec.license               = "MIT"
@@ -38,6 +38,7 @@ Greatly appreciated.}
   # Development and testing dependencies
   spec.add_development_dependency 'bundler', '~> 2.1.2'
   spec.add_development_dependency 'simplecov', '~> 0.17.1'
+  spec.add_development_dependency 'node_impl', '~> 0.1.0'
 
   # Gem specific runtime dependencies
   spec.add_runtime_dependency 'node_error_int', '~> 0.1.0'
