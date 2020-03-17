@@ -1,15 +1,14 @@
 # Changelog
 
-## 0.1.0, YEAR-MONTH-DAY
+## 0.1.0, 2020-03-17
 
 ### Added
 
--
+- Configuration files.
+- Tests.
+- NodeError implementation code.
+- Documentation.
 
 ### Edited
 
--
-
 ### Fixed
-
--
