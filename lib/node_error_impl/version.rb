@@ -1,12 +1,14 @@
-# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released 
-# under the MIT License.
+# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
+# under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require 'node_error_int'
-require_relative 'node_error_helper'
 
 # NodeError.
-# @abstract
-# The NodeError interface's implementation. A NodeError type exception.
+# @class_description
+#   A NodeError exception class implementation. Implements the NodeError
+#   interface.
+# @attr message [String]
+#   An error message.
 class NodeError < NodeErrorInt
-  VERSION = '0.1.0'.freeze()
+  VERSION = '1.0.0'.freeze()
 end

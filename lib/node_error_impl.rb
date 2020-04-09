@@ -1,56 +1,55 @@
 # Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
-# under the MIT License.
+# under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "node_error_impl/version"
 
 # NodeError.
-# @abstract
-# A NodeError type exception implementation. Implements the NodeError interface.
+# @class_description
+#   A NodeError exception class implementation. Implements the NodeError
+#   interface.
+# @attr message [String]
+#   An error message.
 class NodeError < NodeErrorInt
 
-  include NodeErrorHelper
-
   # initialize(message = DEFAULT_MESSAGE).
-  # @abstract
-  # Constructor.
-  # @param [String] message
-  # An error message.
+  # @description
+  #   Initializes a NodeError instance.
+  # @param message [String]
+  #   An error message.
   # @return [NodeError]
-  # A NodeError instance.
+  #   A NodeError instance.
   def initialize(message = DEFAULT_MESSAGE)
-    self.message = choose(message)
+    self.message = message
   end
 
   # message().
-  # @abstract
-  # Attribute getter.
-  # @return [String] m_copy
-  # The message attribute's copy.
+  # @description
+  #   Gets the error message.
+  # @return [String]
+  #   The message String, frozen.
   def message()
-    m_copy = @message.clone()
-    return m_copy
-  end
-
-  # node?(any_object = nil).
-  # @abstract
-  # Boolean method. Verifies the Node type.
-  # @return [TrueClass, FalseClass] node_bool
-  # True in the case any_object is a Node instance. False otherwise.
-  def node?(any_object = nil)
-    node_bool = ((any_object.instance_of?(Node)) || (any_object.nil?()))
-    return node_bool
+    return @message.freeze()
   end
 
   private
 
   # message=(explanation = nil).
-  # @abstract
-  # Attribute setter. Sets message.
-  # @param [String] explanation
-  # A NodeError explanation.
+  # @description
+  #   Sets the message attribute.
+  # @param explanation [String]
+  #   A NodeError explanation.
+  # @raise [TypeError]
+  #   In the case the argument is anything other than a String instance.
+  # @return [String]
+  #   The argument.
   def message=(explanation = nil)
-    @message = explanation.clone()
+
+    if (!explanation.instance_of?(String))
+      raise(TypeError, "The explanation #{explanation} is not a String.")
+    else
+      @message = explanation
+    end
+
   end
 
 end
-

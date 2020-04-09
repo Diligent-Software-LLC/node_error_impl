@@ -1,5 +1,4 @@
 $LOAD_PATH.unshift File.expand_path("../lib", __dir__)
-require "node_error_impl"
-require 'node_impl'
 
+require_relative "../lib/node_error_impl"
 require "minitest/autorun"

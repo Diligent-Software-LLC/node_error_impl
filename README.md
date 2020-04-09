@@ -1,14 +1,17 @@
 # node_error_impl [![Gem Version](https://badge.fury.io/rb/node_error_impl.svg)](https://badge.fury.io/rb/node_error_impl) ![Gem](https://img.shields.io/gem/dt/node_error_impl) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/node_error_impl.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/node_error_impl)
 
-A NodeError exception implementation. Implements the NodeError interface.
+A NodeError exception class implementation. Implements the NodeError interface.
 
 ## Installation
 
-- Refer the [installation page](https://docs.diligentsoftware.org/node/packages).
+- Refer the Implementation's 
+[Packages](https://docs.diligentsoftware.org/node-1/error/packages#implementation) 
+page.
 
 ## Documentation
 
-- Refer the [homepage](https://docs.diligentsoftware.org/node/nodeerror/implementation).
+- Refer the Implementation's 
+[homepage](https://docs.diligentsoftware.org/node-1/error/implementation).
 
 ## Contributing
 
@@ -22,8 +25,8 @@ Greatly appreciated.
 
 ### Report Bugs
 
-Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/node_error_impl/issues/1).
+- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/node_error_impl/issues/1).
 
 ### Fix Bugs
 
-Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/node_error_impl/issues/2).
+- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/node_error_impl/issues/2).
