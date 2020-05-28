@@ -1,5 +1,24 @@
 # Changelog
 
+## v2.0.0, 2020-05-28
+
+### Added
+
+- A default message.
+- Test coverage.
+
+### Edited
+
+- Deleted node_error_int 'require'ment.
+- Updated source documentation.
+- Updated Gem Specification's email, summary, description, changelog URI, and
+ dependencies.
+- Rewrote README.md.
+- 'require'd data_structure_error_impl.
+- Subclassed DataStructureError.
+
+### Fixed
+
 ## v1.0.0, 2020-04-09
 
 ### Added

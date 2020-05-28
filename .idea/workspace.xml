@@ -34,12 +34,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90244361-7689-4ea7-85d5-29c8d247e2d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_error_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_error_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/node_error_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node_error_impl/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/node_error_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/node_error_impl_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +139,7 @@
       <updated>1584466377639</updated>
       <workItem from="1584466381292" duration="14322000" />
       <workItem from="1586468612993" duration="4801000" />
-      <workItem from="1590681421506" duration="2364000" />
+      <workItem from="1590681421506" duration="3088000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Repository&#10;&#10;Setup complete.">
       <created>1584476604580</created>
@@ -194,10 +190,17 @@
       <option name="project" value="LOCAL" />
       <updated>1590683537646</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Development Complete&#10;&#10;'require'd data_structure_error_impl. Subclassed DataStructureError. Added a default message. Added test coverage.">
+      <created>1590684841105</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590684841105</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Node Subsystem: Error Component: Implementation State: {Development} Sprints: 10" />
+        <option name="defaultSearch" value="project: Node Subsystem: Error Component: Implementation State: {Prepare Deployment} Sprints: 10" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -225,7 +228,8 @@
     <MESSAGE value="Setup, Development Complete&#10;&#10;Removed NodeErrorHelper. Edited copyright statements. Added YARDocumentation. Removed the node?(any_object = nil) method. Added TypeError protection in message setter. Rewrote test file. Fixed 'require' statements. Edited Gem Specification. Fixed the README.md's Installation and Documentation page links. Added a .yardopts file." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Deleted node_error_int 'require'ment. Bumped Major Version. Updated source documentation. Updated Gem Specification's email, summary, description, changelog URI and dependencies. Rewrote README.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Deleted node_error_int 'require'ment. Bumped Major Version. Updated source documentation. Updated Gem Specification's email, summary, description, changelog URI and dependencies. Rewrote README.md." />
+    <MESSAGE value="Development Complete&#10;&#10;'require'd data_structure_error_impl. Subclassed DataStructureError. Added a default message. Added test coverage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;'require'd data_structure_error_impl. Subclassed DataStructureError. Added a default message. Added test coverage." />
   </component>
   <component name="WindowStateProjectService">
     <state x="434" y="175" key="#Servers" timestamp="1584466486080">
@@ -236,10 +240,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="411" y="183" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.975@0.23.1680.975" timestamp="1584484731327" />
-    <state x="74" y="42" width="1545" height="901" key="CommitChangelistDialog2" timestamp="1590684756319">
+    <state x="74" y="42" width="1545" height="901" key="CommitChangelistDialog2" timestamp="1590690406318">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="74" y="42" width="1545" height="901" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590684756319" />
+    <state x="74" y="42" width="1545" height="901" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590690406318" />
     <state width="1569" height="269" key="GridCell.Tab.0.bottom" timestamp="1590684367470">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -260,10 +264,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="343" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1584488325557" />
-    <state x="434" y="250" key="Vcs.Push.Dialog.v2" timestamp="1586473607437">
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2" timestamp="1590690277424">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="434" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1586473607437" />
+    <state x="434" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1590690277424" />
     <state x="426" y="235" width="816" height="550" key="find.popup" timestamp="1586470321450">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -272,10 +276,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="499" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1586469532758" />
-    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590684539766">
+    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590689941156">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590684539766" />
+    <state x="499" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590689941156" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/node_error_impl@NodeErrorImplTest.rcov" NAME="NodeErrorImplTest Coverage Results" MODIFIED="1590684361614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="node_error_impl" />
