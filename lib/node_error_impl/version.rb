@@ -8,6 +8,6 @@ require 'data_structure_error_impl'
 #   A NodeError library's implementation.
 # @attr message [String]
 #   An error message.
-class NodeError #< DataStructureError
+class NodeError < DataStructureError
   VERSION = '2.0.0'.freeze()
 end
