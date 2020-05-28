@@ -11,8 +11,9 @@ class NodeErrorTest < Minitest::Test
 
   # test_conf_doc_f_ex().
   # @description
-  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md, and
-  #   .yardopts files exist.
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
+  #   .yardopts, .gitignore, Changelog.md, CODE_OF_CONDUCT.md,
+  #   node_error_impl.gemspec, Gemfile.lock, and Rakefile files exist.
   def test_conf_doc_f_ex()
 
     assert_path_exists('.travis.yml')
@@ -21,6 +22,12 @@ class NodeErrorTest < Minitest::Test
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
     assert_path_exists('.yardopts')
+    assert_path_exists('.gitignore')
+    assert_path_exists('Changelog.md')
+    assert_path_exists('CODE_OF_CONDUCT.md')
+    assert_path_exists('node_error_impl.gemspec')
+    assert_path_exists('Gemfile.lock')
+    assert_path_exists('Rakefile')
 
   end
 
@@ -82,8 +89,8 @@ class NodeErrorTest < Minitest::Test
   end
 
   # teardown().
-  # @abstract
-  # Cleanup.
+  # @description
+  #   Cleanup.
   def teardown()
   end
 

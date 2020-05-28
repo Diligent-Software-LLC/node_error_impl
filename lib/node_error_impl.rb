@@ -5,11 +5,13 @@ require_relative "node_error_impl/version"
 
 # NodeError.
 # @class_description
-#   A NodeError exception class implementation. Implements the NodeError
-#   interface.
+#   A NodeError library's implementation.
 # @attr message [String]
 #   An error message.
-class NodeError < NodeErrorInt
+class NodeError < DataStructureError
+
+  # Constants.
+  DEFAULT_MESSAGE = 'The argument is not a Node instance.'.freeze()
 
   # initialize(message = DEFAULT_MESSAGE).
   # @description
@@ -44,7 +46,7 @@ class NodeError < NodeErrorInt
   #   The argument.
   def message=(explanation = nil)
 
-    if (!explanation.instance_of?(String))
+    unless (explanation.instance_of?(String))
       raise(TypeError, "The explanation #{explanation} is not a String.")
     else
       @message = explanation
