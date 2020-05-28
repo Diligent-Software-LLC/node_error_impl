@@ -8,7 +8,7 @@
 #   A NodeError library's implementation.
 # @attr message [String]
 #   An error message.
-class NodeError < DataStructureError
+class NodeError #< DataStructureError
 
   # Constants.
   DEFAULT_MESSAGE = 'The argument is not a Node instance.'.freeze()
