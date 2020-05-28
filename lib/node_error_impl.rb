@@ -1,14 +1,14 @@
 # Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
-#require_relative "node_error_impl/version"
+require_relative "node_error_impl/version"
 
 # NodeError.
 # @class_description
 #   A NodeError library's implementation.
 # @attr message [String]
 #   An error message.
-class NodeError #< DataStructureError
+class NodeError < DataStructureError
 
   # Constants.
   DEFAULT_MESSAGE = 'The argument is not a Node instance.'.freeze()
